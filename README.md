@@ -23,3 +23,4 @@ This will install the package on your local python environment (we strongly reco
 
 ## Tests
 
+We have added a context.py script in the test folder, this would allow to run the test files without having to install the package on your local environment. 
