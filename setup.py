@@ -16,8 +16,8 @@ setup(
     author_email='zepedanunez@wisc.edu',
     url='https://github.com/Forgotten/BathFitting',
     license=license,
-    install_requires=['numpy', 'scipy', 'cvxpy']
-    packages=setuptools.find_packages(),
+    install_requires=['numpy', 'scipy', 'cvxpy'],
+    packages=find_packages(),
     classifiers=["Programming Language :: Python :: 3",
                 "License :: MIT License",
                 "Operating System :: OS Independent",],
