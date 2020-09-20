@@ -32,7 +32,7 @@ def bath_fitting(K, z, Delta,
                    options={'eps': opt_tol, 'disp': True})
 
     print("optimization done")
-    print("final value is %.6f"%(res.value))
+    print("final value is %.6f"%(fun(res.x)[0]))
     # compute the bath from the optimized poles
     Xbath = sdr_fitting(res.x, flag = 'bath')
 
